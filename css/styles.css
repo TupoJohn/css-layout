@@ -52,4 +52,7 @@ body {
     .column-3 {
         width: 50%;
     }
+    #caja-10 {
+        width: 100%;
+    }
 }
