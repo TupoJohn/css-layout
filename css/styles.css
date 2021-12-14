@@ -20,39 +20,32 @@ body {
 /* Diseño de columnas */
 
 .column-1 {
-    width: 100%;
+    width: 50%;
     float: left;
     background-color: red;
-    border
 }
 
 .column-2 {
-    width: 50%;
+    width: 25%;
     float: left;
     background-color: blue;
 }
 
 .column-3 {
-    width: 25%;
+    width: 33.33%;
     float: left;
     background-color: yellow;
 }
 
-.column-4 {
-    width: 33.33%;
-    float: left;
-    background-color: green;
-}
-
 @media only screen and (max-width: 600px) {
     /* reglas */
-    .column-4 {
+    .column-1 {
         width: 100%;
     }
-    .column-3 {
+    .column-2 {
         width: 50%;
     }
-    #caja-10 {
+    .column-3 {
         width: 100%;
     }
 }
